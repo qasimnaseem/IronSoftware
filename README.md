@@ -91,41 +91,45 @@ class Program
         }
     }
 }
+```
 
 ⚙️ Input Rules
 
-Symbol	|	Meaning
-0–9		|	Keypad numbers for characters
-*		|	Backspace (removes previous character 
-(space)	|	Pause between key sequence 
-#		|	End of input (required 
+|   Symbol	|	Meaning                                 |
+|---------- | ----------------------------------------- |
+|   0–9		|	Keypad numbers for characters           |
+|   `*`		|	Backspace (removes previous character   |
+|   (space)	|	Pause between key sequence              |
+|   `#`		|	End of input (required)                  |
 
 🧪 Example Test Case 
-Input			    |	Output	|	Notes
-2#					|	A		|	Single key press
-22#					|	B		|	Multi-tap
-999337777#			|	YES		|	Combination of keys
-44 33 555 555 666#	|	HELLO	|	Uses pauses
-4433555*555666#		|	HELLO	|	Uses backspace
+|   Input			    |	Output	|	Notes               |
+| --------------------- | --------- | --------------------- |
+|   2#					|	A		|	Single key press    |
+|   22#					|	B		|	Multi-tap           |
+|   999337777#			|	YES		|	Combination of keys |
+|   44 33 555 555 666#	|	HELLO	|	Uses pauses         |
+|   4433555*555666#		|	HELLO	|	Uses backspace      |
 
 🛠️ Tech Stack
 
-Language: C#
-Framework: .NET 8
-Paradigm: Object-Oriented Programming
-Tools: Visual Studio / VS Code
+Language: C#  
+Framework: .NET 8  
+Paradigm: Object-Oriented Programming  
+Tools: Visual Studio / VS Code  
 
-🧰 Project Structure
-📦 KeypadInputDecoder
-├── 📂 Constants
-│   └── AppConstants.cs
-├── 📂 Interfaces
-│   └── IKeypadInputDecoder.cs
-├── 📂 Services
-│   └── KeypadInputDecoder.cs
-├── 📂 Tests
-│   └── KeypadInputDecoderTests.cs
-└── README.md
+🧰 Project Structure  
+📦 IronSoftware  
+├── 📂 Constants  
+│   └── AppConstants.cs  
+├── 📂 Interfaces  
+│   └── IKeypadInputDecoder.cs  
+├── 📂 Services  
+│   └── KeypadInputDecoder.cs  
+├── 📂 Tests  
+│   └── KeypadInputDecoderTests.cs  
+└── README.md  
+
 
 🧭 Future Enhancements
 
@@ -137,13 +141,15 @@ Tools: Visual Studio / VS Code
 
 🔹 Add support for custom keypad mappings
 
+## 🤖 AI Prompt
 
+This project was inspired and assisted by an AI prompt used with ChatGPT.  
+You can view the prompt here: [AI Prompt Link](https://chatgpt.com/share/69418e20-1c74-8001-8a67-f6bb8212c146)
 
 📜 License
 
-This project is released under the MIT License
+This project is released under the MIT License  
 
-💬 Author
-
-Muhammad Qasim
+💬 Author  
+Muhammad Qasim  
 dev-qasim@hotmail.com
